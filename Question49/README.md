@@ -1,9 +1,9 @@
-Intuition:
+Intuition :-
 
 The problem requires grouping anagrams together. Anagrams are words or phrases formed by rearranging the letters of another word or phrase.
 For example, "listen" and "silent" are anagrams of each other. To group anagrams together, we need to find a way to identify which words belong to the same anagram group.
 
-Approach:
+Approach :-
 
 Using a HashMap: We use a HashMap to group anagrams. 
 The key of the HashMap will be a canonical representation of each group of anagrams, and the value will be a list of words that belong to that group.
